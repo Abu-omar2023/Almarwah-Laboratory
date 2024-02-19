@@ -7,9 +7,7 @@
     bottom: 30px;
     z-index: 99;
 }
-* {
-    font-family: 'Kufam', sans-serif !important;
-}
+
 .fw-medium {
     font-weight: 500;
 }
@@ -91,7 +89,7 @@
     content: "";
     width: 35px;
     height: 35px;
-    left: calc(50% - 17.5px);
+    left: 0;
     bottom: 0;
     border-radius: 35px;
     transition: .5s;
@@ -100,10 +98,12 @@
 
 .icon-box-primary::before {
     background: var(--bs-primary);
+    margin-left: calc(50% - 17.5px);
 }
 
 .icon-box-light::before {
     background: var(--bs-light);
+    margin-left: calc(50% - 17.5px);
 }
 
 
